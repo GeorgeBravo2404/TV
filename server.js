@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // Enlace RAW a tu archivo link.txt de GitHub
-const LINK_TXT_URL = 'https://raw.githubusercontent.com/GeorgeBravo2404/TV/main/link.txt';
+const LINK_TXT_URL = 'https://raw.githubusercontent.com/GeorgeBravo2404/TV/refs/heads/main/link.txt?token=GHSAT0AAAAAADE5BAFNOLDNTYMXP3YTYLE62CLFQXQ';
 
 app.get('/', async (req, res) => {
   try {
