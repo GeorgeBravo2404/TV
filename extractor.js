@@ -18,7 +18,7 @@ const fs = require('fs');
   });
 
   console.log('🌐 Abriendo página...');
-  await page.goto('https://stream196tp.com/global2.php?stream=espn', {
+  await page.goto('https://stream196tp.com/global2.php?stream=espn2', {
     waitUntil: 'load', // Puede cambiarse a 'networkidle' si es lento
     timeout: 15000
   });
